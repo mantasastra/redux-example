@@ -25,17 +25,3 @@ export const subtract = (number) => {
     value: number,
   };
 };
-
-export const storeResult = (result) => {
-  return {
-    type: actionTypes.STORE_RESULT,
-    result,
-  };
-};
-
-export const deleteResult = (id) => {
-  return {
-    type: actionTypes.DELETE_RESULT,
-    id,
-  };
-};

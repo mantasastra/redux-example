@@ -33,9 +33,9 @@ const counter = (state = initialState, action) => {
         counter: state.counter - action.value,
       };
     }
+    default:
+      return state;
   }
-
-  return state;
 };
 
 export default counter;
